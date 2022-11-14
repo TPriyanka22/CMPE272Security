@@ -115,21 +115,27 @@ And also checked that the CA directory holds CA resources, the crl directory hol
 
 5.5 View PKCS#12 bundle: The below command can be used to display the contents of PKCS#12 bundles.
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606069-0054d0fa-bf1a-488c-8a38-e1377d9c4488.png">
+
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606087-f89ed4e9-7e64-434e-ac09-47f1a2dbdbed.png">
+
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606111-53be5f84-d1c1-406c-86bf-bc7e8eb720b0.png">
 
 6.1 Install Tomcat server and create a new Keystore as shown below.
+
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606219-0737bccf-0136-4aae-a206-fe5adb1808e7.png">
 
 6.2 Creating a csr file using the below command and also signing the certificate for Tomcat.
+
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606271-ccefcde8-f4d1-44f4-a50c-4a2fc39aaa59.png">
 
 6.3 Importing Tomcat certificate and also the root.
+
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606459-82ddb91d-ba8c-4296-801e-c1d89e0f19ff.png">
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606496-8991edd6-0708-4fe5-858d-416845e2a025.png">
 
 6.4 Update server.xml with the path of the keystorefile and then start the Tomcat Server.
+
 <img width="496" alt="image" src="https://user-images.githubusercontent.com/111544172/201606554-1fd175ac-5014-43f3-a039-366c32759036.png">
 
 <img width="470" alt="image" src="https://user-images.githubusercontent.com/111544172/201606574-37ee5d05-95f1-490d-8ceb-4464d0ebf2d8.png">
