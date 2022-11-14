@@ -88,6 +88,59 @@ And also checked that the CA directory holds CA resources, the crl directory hol
 4.5 Create PEM bundle: These bundles are created by combining other PEM files.
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201605545-6b718551-4c3f-4288-bfec-5b36bb4c12b3.png">
 
+5.	View Results
+5.1 View Request: The command below helps to display the contents of CSR files.
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201605688-4e7fc3d9-8270-4e13-b456-dc437be4bd5f.png">
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201605709-b30bf9bc-613f-4e1f-a38b-9dc3d3dcbaad.png">
+
+5.2 View Certificate: With the below command we can display the contents of certificate files. 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201605785-6b8d4119-d2de-4263-9371-c450f0ede281.png">
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201605814-cfaa1a72-9614-4102-801d-b6652caa600d.png">
+
+5.3 View CRL: With the following command we can view the contents of CRL files.
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201605901-5723d6ae-bed6-4f25-8db4-adf31471b1a0.png">
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201605917-7cf39322-98c8-4d85-abfa-c99e212711bc.png">
+
+5.4 View PKCS#7 bundle: This command helps to display the contents of PKCS#7 bundles.
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201605970-6f83990b-066a-4deb-b205-5e00f9f04b1a.png">
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201605984-7af24f66-c2ec-4e4b-9f05-ff51fdebd39d.png">
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201605994-85d776b2-87dc-44fb-9c04-8c5429cddab1.png">
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606012-4628727f-ac11-4aec-a90d-cf511d5569e3.png">
+
+5.5 View PKCS#12 bundle: The below command can be used to display the contents of PKCS#12 bundles.
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606069-0054d0fa-bf1a-488c-8a38-e1377d9c4488.png">
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606087-f89ed4e9-7e64-434e-ac09-47f1a2dbdbed.png">
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606111-53be5f84-d1c1-406c-86bf-bc7e8eb720b0.png">
+
+6.1 Install Tomcat server and create a new Keystore as shown below.
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606219-0737bccf-0136-4aae-a206-fe5adb1808e7.png">
+
+6.2 Creating a csr file using the below command and also signing the certificate for Tomcat.
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606271-ccefcde8-f4d1-44f4-a50c-4a2fc39aaa59.png">
+
+6.3 Importing Tomcat certificate and also the root.
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606459-82ddb91d-ba8c-4296-801e-c1d89e0f19ff.png">
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/201606496-8991edd6-0708-4fe5-858d-416845e2a025.png">
+
+6.4 Update server.xml with the path of the keystorefile and then start the Tomcat Server.
+<img width="496" alt="image" src="https://user-images.githubusercontent.com/111544172/201606554-1fd175ac-5014-43f3-a039-366c32759036.png">
+
+<img width="470" alt="image" src="https://user-images.githubusercontent.com/111544172/201606574-37ee5d05-95f1-490d-8ceb-4464d0ebf2d8.png">
+
+
+
+
+
+
+
+
 
 
 
